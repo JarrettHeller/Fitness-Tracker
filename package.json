@@ -1,20 +1,29 @@
 {
-  "name": "mongoose_skeleton",
+  "name": "budget-app",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "nodemon server.js",
-    "seed": "node seeders/seed.js"
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JarrettHeller/Budget-T.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  
+  },
+  "homepage": "https://github.com/JarrettHeller/Budget-T#readme",
   "dependencies": {
-    "express": "^4.16.3",
-    "mongoose": "^5.3.16",
-    "morgan": "^1.9.1",
-    "dotenv": "^8.2.0"
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
   }
 }
